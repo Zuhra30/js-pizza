@@ -1,0 +1,31 @@
+// Radio
+.label__input-radio {
+    height: 5rem;
+    width: 5rem;
+}
+
+.label__input-radio:not(last-child){
+    margin-right: 20px;
+}
+
+.label__input-radio input {
+    height: 100%;
+    width: 100%;
+    // background-color: black;
+
+}
+
+.label__input-radio .label__span {
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+// Checkbox
+.label-checkbox {
+    font-size: 20px;
+}
+.js-divEl{
+    display: flex;
+    align-items: center;
+}
